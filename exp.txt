@@ -1,0 +1,29 @@
+{
+  "insert_freq": "high",
+  "delete_freq": "low",
+  "search_freq": "high",
+  "need_order": true,
+  "unique_keys": true
+}
+
+| insert\_freq | delete\_freq | search\_freq | need\_order | unique\_keys | BestStructure |
+| ------------ | ------------ | ------------ | ----------- | ------------ | ------------- |
+| high         | low          | high         | true        | true         | BST           |
+| low          | high         | low          | false       | false        | Queue         |
+| high         | high         | high         | false       | true         | HashTable     |
+
+
+Частота вставок	Dropdown	Low / Medium / High
+Частота видалень	Dropdown	Low / Medium / High
+Частота пошуку	Dropdown	Low / Medium / High
+Важливий порядок елементів?	Toggle/Radio	Так / Ні
+Потрібна унікальність ключів?	Toggle/Radio	Так / Ні
+Доступ за ключем	Toggle/Radio	Так / Ні
+
+
+Частота вставок	Dropdown	Low / Medium / High
+Частота видалень	Dropdown	Low / Medium / High
+Частота пошуку	Dropdown	Low / Medium / High
+Важливий порядок елементів?	Toggle/Radio	Так / Ні
+Потрібна унікальність ключів?	Toggle/Radio	Так / Ні
+Доступ за ключем	Toggle/Radio	Так / Ні
